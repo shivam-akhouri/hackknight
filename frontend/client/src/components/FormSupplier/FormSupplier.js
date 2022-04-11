@@ -45,7 +45,9 @@ export default function FormSupplier(){
           <label  class="form-label">License Number:</label>
           <input value={data.licensenumber} name="licensenumber" type="number" class="form-control"  placeholder="License Number"></input>
         
-          <button type="button" onClick={()=>console.log(data)} name="submit" class="btn btn-primary btn-sm">Submit</button>
+          <div class="d-grid my-2">
+            <button type="button col-6" name="submit" class="btn btn-primary btn-sm">Submit</button>
+          </div>
         </div>
         </div>
         </div>

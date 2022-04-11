@@ -51,8 +51,9 @@ export default function FormDoctor(){
           ...data,
           [e.target.name]: e.target.value
         })} name="address" class="form-control" placeholder='Address'></textarea>
-    
-        <button type="button" name="submit" onClick={()=>console.log(data)} class="btn btn-primary btn-sm">Submit</button>
+        <div class="d-grid my-2">
+            <button type="button col-6" name="submit" class="btn btn-primary btn-sm">Submit</button>
+          </div>
       </div>
     </div>
     )

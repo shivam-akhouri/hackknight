@@ -72,8 +72,9 @@ export default function FormM() {
               [e.target.name]: e.target.value
             })
           }} name="licensenumber" type="number" class="form-control" placeholder="License Number"></input>
-
-          <button type="button" name="submit" class="btn btn-primary btn-sm">Submit</button>
+          <div class="d-grid my-2">
+            <button type="button col-6" name="submit" class="btn btn-primary btn-sm">Submit</button>
+          </div>
         </div>
       </div>
     </>
