@@ -24,7 +24,10 @@
 .mb-3
 {
   margin: 30px auto;
-  width: 30%
+  width: 30%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .form-label
@@ -36,9 +39,25 @@ h2{
   text-align: center;
 }
 
-button{
-  text-align: center;
-  margin: 0 auto;
-  display: flex;
-  display: grid;
+.doctorform{
+  background-image: url("./components/Images/136934.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:93vh;
+  
+}
+
+
+.supplierform{
+  background-image: url("./components/Images/DoctorBackGroundjpg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:93vh; 
+}
+
+.manufacturerform{
+  background-image: url("./components/Images/Medicine-factory-768x438.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:93vh; 
 }

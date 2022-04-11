@@ -4,9 +4,9 @@ export default class FormM extends Component {
   render() {
     return (
       <>
-      <h2>Manufacturer Registration</h2>
+      <div class="manufacturerform">
         <div class="mb-3">
-        
+        <h2>Manufacturer Registration</h2>  
         <label  class="form-label">Name:</label>
         <input name="name" type="text" class="form-control"  placeholder="Your Name"></input>
 
@@ -30,6 +30,7 @@ export default class FormM extends Component {
         <input name="licensenumber" type="number" class="form-control"  placeholder="License Number"></input>
 
         <button type="button" name="submit" class="btn btn-primary btn-sm">Submit</button>
+      </div>
       </div>
       </>
     )

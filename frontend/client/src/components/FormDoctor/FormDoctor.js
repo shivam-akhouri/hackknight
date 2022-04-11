@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 export default class FormDoctor extends Component {
   render() {
     return (
-      <>
-      <h2>Doctor Registration</h2>
+      <div class="doctorform">
+      
         <div class="mb-3">
-        
-
+    
+        <h2>Doctor Registration</h2>
         <label  class="form-label">Name:</label>
         <input name="name" type="text" class="form-control"  placeholder="Your Name"></input>
 
@@ -29,7 +29,7 @@ export default class FormDoctor extends Component {
     
         <button type="button" name="submit" class="btn btn-primary btn-sm">Submit</button>
       </div>
-    </>
+    </div>
     )
   }
 }

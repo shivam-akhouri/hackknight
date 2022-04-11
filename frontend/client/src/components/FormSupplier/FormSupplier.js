@@ -3,10 +3,13 @@ import React, { Component } from 'react'
 export default class FormSupplier extends Component {
   render() {
     return (
+      
         <>
-        <h2>Supplier Registration</h2>
+        <div class="supplierform">
+        <div>
+        
           <div class="mb-3">
-          
+          <h2>Supplier Registration</h2>  
           <label  class="form-label">Name:</label>
           <input name="name" type="text" class="form-control"  placeholder="Your Name"></input>
   
@@ -30,6 +33,8 @@ export default class FormSupplier extends Component {
           <input name="licensenumber" type="number" class="form-control"  placeholder="License Number"></input>
         
           <button type="button" name="submit" class="btn btn-primary btn-sm">Submit</button>
+        </div>
+        </div>
         </div>
         </>
     )

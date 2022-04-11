@@ -8,7 +8,8 @@ import Navbar from "./components/navbar/Navbar.js";
 import FormDoctor from "./components/FormDoctor/FormDoctor.js";
 import FormManufacturer from "./components/FormManufacturer/FormManufacturer.js";
 import FormSupplier from "./components/FormSupplier/FormSupplier.js";
-import Login from "./components/Login/Login.js"
+import Login from "./components/Login/Login.js";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 class App extends Component {
   // state = { storageValue: 0, web3: null, accounts: null, contract: null };
@@ -58,10 +59,17 @@ class App extends Component {
     return(
       <>
         <Navbar/>
-        <FormDoctor/>
+        <Routes>
+
+          <Route path="doctor" element={<FormDoctor />} />
+          <Route path="manufacturer" element={<FormManufacturer />} />
+          <Route path="supplier" element={<FormSupplier />} />
+          <Route path="login" element={<Login />} />
+        </Routes>
+        {/* <FormDoctor/>
         <FormManufacturer/>
-        <FormSupplier/>
-        <Login/>
+        <FormSupplier/> */}
+        {/* <Login/> */}
       </>
     );
   }
