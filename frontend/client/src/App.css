@@ -20,3 +20,18 @@
 .App-link {
   color: #09d3ac;
 }
+
+.mb-3
+{
+  margin: 30px auto;
+  width: 30%
+}
+
+.form-label
+{
+  margin-top: 10px;
+}
+
+h2{
+  text-align: center;
+}

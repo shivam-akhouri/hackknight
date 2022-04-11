@@ -4,6 +4,10 @@ import getWeb3 from "./getWeb3";
 
 import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/navbar/Navbar.js";
+import FormDoctor from "./components/FormDoctor/FormDoctor.js";
+import FormManufacturer from "./components/FormManufacturer/FormManufacturer.js";
+import FormSupplier from "./components/FormSupplier/FormSupplier.js";
 
 class App extends Component {
   // state = { storageValue: 0, web3: null, accounts: null, contract: null };
@@ -52,7 +56,10 @@ class App extends Component {
   render() {
     return(
       <>
-        <p>Hello World</p>
+        <Navbar/>
+        <FormDoctor/>
+        <FormManufacturer/>
+        <FormSupplier/>
       </>
     );
   }
