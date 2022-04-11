@@ -28,6 +28,8 @@ export default class FormSupplier extends Component {
           
           <label  class="form-label">License Number:</label>
           <input name="licensenumber" type="number" class="form-control"  placeholder="License Number"></input>
+        
+          <button type="button" name="submit" class="btn btn-primary btn-sm">Submit</button>
         </div>
         </>
     )

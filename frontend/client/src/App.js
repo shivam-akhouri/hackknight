@@ -8,6 +8,7 @@ import Navbar from "./components/navbar/Navbar.js";
 import FormDoctor from "./components/FormDoctor/FormDoctor.js";
 import FormManufacturer from "./components/FormManufacturer/FormManufacturer.js";
 import FormSupplier from "./components/FormSupplier/FormSupplier.js";
+import Login from "./components/Login/Login.js"
 
 class App extends Component {
   // state = { storageValue: 0, web3: null, accounts: null, contract: null };
@@ -60,9 +61,11 @@ class App extends Component {
         <FormDoctor/>
         <FormManufacturer/>
         <FormSupplier/>
+        <Login/>
       </>
     );
   }
 }
+
 
 export default App;

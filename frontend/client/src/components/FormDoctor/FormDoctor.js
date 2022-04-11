@@ -27,6 +27,7 @@ export default class FormDoctor extends Component {
         <label  class="form-label">Address:</label>
         <textarea name="address" class="form-control" placeholder='Address'></textarea>
     
+        <button type="button" name="submit" class="btn btn-primary btn-sm">Submit</button>
       </div>
     </>
     )
