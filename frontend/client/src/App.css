@@ -61,3 +61,112 @@ h2{
   background-size: cover;
   height:93vh; 
 }
+
+.analytics{
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px;
+  border-radius: 10px;
+}
+
+
+.bargraph {
+  background: #FFF;
+  font-size: 20px;
+  font-family: 'helvetica', sans-serif;
+  font-weight: 700;
+  text-align: right;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bargraph section {
+  display: block;
+  margin: 0 auto;
+  display: block;
+  max-width: 600px;
+  width: 96%;
+}
+.bargraph section #bar_graph {
+  border-left: 4px solid #fff;
+}
+.bargraph section #bar_graph div {
+  padding: 10px 0px;
+  background: #a9d25a;
+  margin: 10px 0;
+  color: #fff;
+  overflow: hidden;
+  display: block;
+  width: 0%;
+  animation: grow30 2s forwards ease;
+  animation-delay: 1.6s;
+}
+.bargraph section #bar_graph div:nth-child(2n) {
+  animation: grow40 2s forwards ease;
+  animation-delay: 1.7s;
+}
+.bargraph section #bar_graph div:nth-child(3n) {
+  animation: grow87 2s forwards ease;
+  animation-delay: 1.8s;
+}
+.bargraph section #bar_graph div:nth-child(4n) {
+  animation: grow69 2s forwards ease;
+  animation-delay: 1.9s;
+}
+.bargraph section #bar_graph div p {
+  margin: 0;
+}
+.bargraph #rerun p {
+  padding: 10px 20px;
+  border: 2px #fff solid;
+  width: max-content;
+  display: block;
+  margin: 30px auto;
+  border-radius: 600px;
+  text-align: center;
+  color: #fff;
+}
+.bargraph #rerun p:hover {
+  border: 2px #a9d25a solid;
+  color: #676767;
+  background: #a9d25a;
+}
+@keyframes grow30 {
+  0% {
+    width: 0%;
+ }
+  100% {
+    width: 30%;
+    padding-right: 10px;
+ }
+}
+@keyframes grow40 {
+  0% {
+    width: 0%;
+ }
+  100% {
+    width: 40%;
+    padding-right: 10px;
+ }
+}
+@keyframes grow87 {
+  0% {
+    width: 0%;
+ }
+  100% {
+    width: 87%;
+    padding-right: 10px;
+ }
+}
+@keyframes grow69 {
+  0% {
+    width: 0%;
+ }
+  100% {
+    width: 69%;
+    padding-right: 10px;
+ }
+}
