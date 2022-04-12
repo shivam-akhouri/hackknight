@@ -21,9 +21,10 @@
   color: #09d3ac;
 }
 
-.mb-3
+.formcontainer
 {
-  margin: 30px auto;
+  margin: auto;
+  padding: 30px;
   width: 30%;
   background-color: white;
   border-radius: 20px;
@@ -43,7 +44,7 @@ h2{
   background-image: url("./components/Images/136934.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  height:93vh;
+  height:100vh;
   
 }
 
@@ -52,13 +53,14 @@ h2{
   background-image: url("./components/Images/DoctorBackGroundjpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height:93vh; 
+  height:120vh; 
 }
 
 .manufacturerform{
   background-image: url("./components/Images/Medicine-factory-768x438.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+<<<<<<< HEAD
   height:93vh; 
 }
 
@@ -170,3 +172,7 @@ h2{
     padding-right: 10px;
  }
 }
+=======
+  height:120vh; 
+}
+>>>>>>> 7365224913e6fbbf74b4111b37c0c9405180aee4

@@ -10,7 +10,11 @@ import FormManufacturer from "./components/FormManufacturer/FormManufacturer.js"
 import FormSupplier from "./components/FormSupplier/FormSupplier.js";
 import Login from "./components/Login/Login.js";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+<<<<<<< HEAD
 import Analytics from "./components/Analytics/Analytics.js"
+=======
+import Checkpage from "./components/checkpage";
+>>>>>>> 7365224913e6fbbf74b4111b37c0c9405180aee4
 
 class App extends Component {
   // state = { storageValue: 0, web3: null, accounts: null, contract: null };
@@ -66,7 +70,11 @@ class App extends Component {
           <Route path="manufacturer" element={<FormManufacturer />} />
           <Route path="supplier" element={<FormSupplier />} />
           <Route path="login" element={<Login />} />
+<<<<<<< HEAD
           <Route path="analytics" element={<Analytics/>}/>
+=======
+          <Route path="check" element={<Checkpage />} />
+>>>>>>> 7365224913e6fbbf74b4111b37c0c9405180aee4
         </Routes>
         {/* <FormDoctor/>
         <FormManufacturer/>
