@@ -70,11 +70,8 @@ class App extends Component {
           <Route path="manufacturer" element={<FormManufacturer />} />
           <Route path="supplier" element={<FormSupplier />} />
           <Route path="login" element={<Login />} />
-<<<<<<< HEAD
           <Route path="analytics" element={<Analytics/>}/>
-=======
           <Route path="check" element={<Checkpage />} />
->>>>>>> 7365224913e6fbbf74b4111b37c0c9405180aee4
         </Routes>
         {/* <FormDoctor/>
         <FormManufacturer/>
