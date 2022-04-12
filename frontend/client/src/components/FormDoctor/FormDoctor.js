@@ -51,9 +51,14 @@ export default function FormDoctor(){
           ...data,
           [e.target.name]: e.target.value
         })} name="address" class="form-control" placeholder='Address'></textarea>
-        <div class="d-grid my-2">
-            <button type="button col-6" name="submit" class="btn btn-primary btn-sm">Submit</button>
-          </div>
+        <div id="submit">
+              <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Submit</span>
+              </button>
+            </div>
       </div>
     </div>
     )

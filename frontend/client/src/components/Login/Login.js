@@ -4,6 +4,8 @@ export default class Login extends Component {
   render() {
     return (
         <>
+        <div className="loginform pt-3">
+        <div className="formcontainer">
         <h2>Login</h2>
           <div class="mb-3">
           
@@ -13,7 +15,16 @@ export default class Login extends Component {
           <label  class="form-label">Password:</label>
           <input name="password" type="password" class="form-control"  placeholder="Password"></input>
           
-          <button type="button" name="submit" class="btn btn-primary btn-sm">Submit</button>
+          <div id="submit">
+              <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Submit</span>
+              </button>
+            </div>
+          </div>
+          </div>
           </div>
         </>
     )

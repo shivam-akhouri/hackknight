@@ -1,4 +1,5 @@
 import React from 'react'
+import PieChart from '../PieChart/PieChart'
 
 export default function Analytics() {
   return (
@@ -101,7 +102,9 @@ export default function Analytics() {
 			<p>RERUN</p>
 		</article>--> */}
 	</section>
+    
 </div>
+<PieChart/>
     </>
   )
 }

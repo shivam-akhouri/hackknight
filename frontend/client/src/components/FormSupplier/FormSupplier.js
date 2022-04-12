@@ -45,9 +45,14 @@ export default function FormSupplier(){
           <label  class="form-label">License Number:</label>
           <input value={data.licensenumber} name="licensenumber" type="number" class="form-control"  placeholder="License Number"></input>
         
-          <div class="d-grid my-2">
-            <button type="button col-6" name="submit" class="btn btn-primary btn-sm">Submit</button>
-          </div>
+          <div id="submit">
+              <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Submit</span>
+              </button>
+            </div>
         </div>
         </div>
         </div>
