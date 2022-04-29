@@ -1,0 +1,61 @@
+subject,teacher_name,FACULTY_ID,MORNING,EVENING,slotm1,slotm2,slote1,slote2
+DSA,Dr Saleena B ,12345,Y,Y,L3,L4,L55,L56
+DSA,Dr Jayaram Balabaskar,12346,Y,Y,L9,L10,L33,L34
+DSA,Dr Bhanu Chander,12347,Y,Y,L19,L20,L31,L32
+DSA,Dr Priyadarshini,12348,Y,Y,L9,L10,L51,L52
+DSA,Dr Padmavathi,12349,Y,Y,L3,L4,L33,L34
+DSA,Dr Mirza Galib,12350,Y,Y,L19,L20,L33,L34
+DSA,Dr Christy Jackson,12351,Y,Y,L7,L8,L55,L56
+DSA,Dr Rajkumar,12352,Y,Y,L27,L28,L55,L56
+DSA,Dr Asha,12353,Y,Y,L7,L8,L45,L46
+DSA,Dr Jenila,12354,Y,Y,L27,L28,L31,L32
+DSA,Dr Nayeemmulla Khan,12355,Y,Y,L1,L2,L45,L46
+DSA,Dr Nithyanandam,12356,Y,N,L1,L2,L45,L46
+DSA,Dr Parvati,12357,Y,N,L9,L10,L31,L32
+DBMS,Dr Bhanu chander,12347,Y,Y,L3,L4,L55,L56
+DBMS,Dr Anita X ,12358,Y,Y,L15,L16,L33,L34
+DBMS,Dr Janaki M,12359,N,Y,0,,L45,L46
+CAO,Dr Alok Chauhan,12360,Y,Y,0,,0,
+CAO,Dr Prabhakar rao,12361,Y,Y,0,,0,
+CAO,Dr Ganala Santoshi,12362,Y,Y,0,,0,
+CAO,Dr Harini S,12363,Y,Y,0,,0,
+CAO,Dr Bharathi Raja,12364,Y,Y,0,,0,
+CAO,Dr Pattabiraman,12365,Y,Y,0,,0,
+CAO,DR Pradeep Kumar TS,12366,Y,N,0,,0,
+CAO,Dr Rajesh Kanna,12367,Y,N,0,,0,
+CAO,Dr Harini S,12363,Y,Y,0,,0,
+CAO,Dr Bharathi Raja,12364,Y,Y,0,,0,
+CAO,Dr Pattabiraman,12365,Y,Y,0,,0,
+CAO,DR Pradeep Kumar TS,12366,Y,N,0,,0,
+CAO,Dr Rajesh Kanna,12367,Y,N,0,,0,
+CPS,Dr Kanchana Devi,12368,Y,Y,0,,0,
+CPS,Dr Hema N,12369,Y,Y,0,,0,
+CPS,Dr Subbulakshmi T,12370,N,Y,0,,0,
+OS,Dr Bhuvaneshwari N G,12372,Y,Y,L13,L14,L57,L58
+OS,Dr Edward Jero S ,12373,Y,Y,L15,L16,L39,L40
+OS,Dr Ganapathy S,12374,Y,Y,L7,L8,L35,L36
+OS,Dr Graceline Jasmine S ,12375,Y,Y,L13,L14,L45,L46
+OS,Dr Kanchana Devi,12368,Y,Y,L19,L20,L49,L50
+OS,Dr Mirza Galib,12350,Y,Y,L15,L16,L49,L50
+OS,Dr Mini Ghosh,12378,Y,Y,L9,L10,L57,L58
+OS,Dr Hemamalini,12379,Y,N,L5,L6,L57,L58
+OS,Dr Rajesh Kumar,12380,Y,Y,L21,L22,L39,L40
+OS,Dr Priyadarshini,12348,Y,Y,L5,L6,L45,L46
+AI,Dr Jyothi,12381,Y,Y,L5,L6,L49,L50
+AI,Dr Ganala Santhoshi,12362,Y,Y,L11,L12,L31-,L32
+AI,Dr Edward Jero S,12373,Y,Y,L11,L12,L31,L32
+AI,Dr Bharathi Raja,12364,Y,Y,L5,L6,L49,L50
+AI,Dr Umitty Srinivasa Rao,12385,Y,N,L9,L10,L49,L50
+MATHS,Dr Radha S,12386,Y,Y,0,,0,
+MATHS,Dr Parthiban V,12387,Y,Y,0,,0,
+MATHS,Dr Felix,12388,Y,Y,0,,0,
+MATHS,Dr Vineeta,12389,Y,Y,0,,0,
+MATHS,Dr Kutubuddin Ansari,12390,Y,N,0,,0,
+SENSORS,Dr Nirmala P,12391,Y,Y,L3,L4,L45,L46
+SENSORS,Dr Chanthini Baskar,12392,Y,Y,L9,L10,L57,L58
+SENSORS,Dr Om Prakash Sahu,12393,Y,Y,L9,L10,L57,L58
+SENSORS,Dr Rajesh Kanna,12367,Y,Y,L3,L4,L45,L46
+SENSORS,Dr Asha S,12395,Y,N,,,,
+MICROPROCESSORS,Dr Chanthini Baskar,12392,Y,Y,L21,L22,L31,L32
+MICROPROCESSORS,Dr Gayathri,12397,Y,Y,L15,L16,L31,L32
+MICROPROCESSORS,Dr Kavya Alluru,12398,Y,Y,L15,L16,L55,L56
